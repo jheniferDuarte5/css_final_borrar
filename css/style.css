@@ -1,0 +1,90 @@
+*{
+
+	font-family: verdana;
+}
+
+
+
+body{
+	background-color: mediumpurple;
+}
+
+.container {
+
+	background-color: white;
+	width: 80%;
+	margin : auto;
+	overflow: hidden;
+}
+
+header{
+
+	background-color: pink;
+	float: left;
+	width: 100%;
+
+}
+
+
+header .menu ul {
+
+	list-style: none;
+	float: left;
+
+}
+
+header nav ul li {
+
+	float: left;
+
+}
+
+header nav ul li a {
+	text-decoration: none;
+	background-color: pink;
+	display: inline-block;
+	padding: 16px;
+	color: black;
+}
+
+
+header nav ul li a:hover {
+
+	background-color: white;
+	color: black;
+}
+
+.image img {
+	width: 100%;
+}
+
+.post article {
+
+
+	padding: 20px;
+	text-align: justify;
+	font-size: 15px;
+}
+
+footer {
+
+	background-color: black;
+	text-align: center;
+	color: white ;
+	padding: 30px;
+}
+
+main {
+
+	width: 70%;
+	float: left;
+	
+}
+
+aside {
+
+	width: 30%;
+	float: left;
+
+	
+}
